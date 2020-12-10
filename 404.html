@@ -160,6 +160,9 @@ main{
   padding-left: 3rem;
   padding-right: 3rem;
 }
+.header__title img{
+  width: 100%;
+}
 @media(max-width: 768px){
   .title__wrapper{
     padding-top: 10px;
@@ -185,8 +188,8 @@ main{
         </div>
         <div class="header__title title">
           <div class="title__wrapper">
-            <div class="title__white">Коллега отправил тебе персональную видео-открытку. Она будет готова примерно через 2.5 минуты.</div>
-            <div class="title__yellow">Дождись, она того стоит!</div>
+            <div class="title__white">Коллега отправил тебе персональную видео-открытку. Она будет готова через пару минут.</div>
+            <div class="title__yellow">Дождись, оно того стоит!</div>
             <h1>&#128521;</h1>
           </div>
           <img src="/404img/info-bg.png" alt="">
@@ -196,6 +199,14 @@ main{
     </div>  
     
   </div>
-
+  <script>
+		setInterval(function() {
+			countdown--;
+			if (countdown == 0) {
+				window.location.reload(1);
+			} else {
+			}
+		}, 10000);
+	</script>
 </body>
 </html>
