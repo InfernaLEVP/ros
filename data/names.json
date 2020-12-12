@@ -54,7 +54,7 @@
   {
     "FullName": "Валентина",
     "ALternative": "",
-    "ShortName": "Валя",
+    "ShortName": "",
     "index": 20
   },
   {
@@ -80,7 +80,7 @@
   {
     "FullName": "Александр",
     "ALternative": "",
-    "ShortName": "Саша, Саня",
+    "ShortName": "Саня",
     "index": 26
   },
   {
@@ -110,7 +110,7 @@
   {
     "FullName": "Александра",
     "ALternative": "",
-    "ShortName": "Саша",
+    "ShortName": "",
     "index": 31
   },
   {
@@ -142,7 +142,7 @@
   {
     "FullName": "Евгений",
     "ALternative": "",
-    "ShortName": "Женя, Жека",
+    "ShortName": "Жека",
     "index": 43
   },
   { "FullName": "Михаил", "ALternative": "", "ShortName": "Миша", "index": 44 },
@@ -264,7 +264,7 @@
   {
     "FullName": "Валентин",
     "ALternative": "",
-    "ShortName": "Валя",
+    "ShortName": "",
     "index": 85
   },
   { "FullName": "Карина", "ALternative": "", "ShortName": "", "index": 86 },
